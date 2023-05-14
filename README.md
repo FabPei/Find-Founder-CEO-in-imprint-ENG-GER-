@@ -17,3 +17,11 @@ Required additional files:
 
 !Must read!
 The lists contain synonyms, which are frequently used by german startups for CEO/Founder. Thus its a mix of german and english words.
+
+Lists used:
+#The imprint is usually separted in various parts. These words indicate that we reached a section which wont contain our desired names
+ListOfWordsToClean = ["Kontakt", "Umsatzsteuer", "Hausanschrift", "E-Mail"]
+ #List of possible subsites with the name of the CEO/Founder
+ListOfImprintWords = ["impressum", "imprint", "policies/legal-notice","impressum.html", "legal-disclaimer", "legals"]
+#List of possible CEO/Founder synonyms
+ListOfCEOKeywords = ["Geschäftsführe", "Managing Directors:", "Vertreten durch", "Representative","Vertreten durch die Geschäftsführer","Verantwortliche", "CEO", "Vertretungsberechtigt", "legal representative", "Gesellschafter", "Vertreten durch Geschäftsführer", "Verantwortlich für", "Represented by", "Members of the Board", "Geschäftsführung", "Geschäftsführende Gesellschafter"]  
