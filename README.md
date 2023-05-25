@@ -1,5 +1,5 @@
 # FounderImprintCrawler
-This small script retrieves the names of founders/CEO from websites. 
+This small script retrieves the names of founders/CEO (Gründer/Geschäftsführer) from websites. 
 
 Process:
 - Tries finding the imprint page with the help of a list with imprint synonyms
