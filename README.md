@@ -1,4 +1,4 @@
-# FounderImprintCrawler
+# Finds the name of a founder/CEO in the imprint (GER/ENG supported)
 This small script retrieves the names of founders/CEO (Gründer/Geschäftsführer) from websites. 
 
 Process:
