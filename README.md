@@ -1,4 +1,4 @@
-# Finds the name of a founder/CEO in the imprint (GER/ENG supported)
+# Find the name of a founder/CEO in the imprint (GER/ENG supported)
 This small script retrieves the names of founders/CEO (Gründer/Geschäftsführer) from websites. 
 
 Process:
@@ -16,14 +16,14 @@ Required additional files:
 - Excel list with websites to search in
 
 !Must read!
-The lists contain synonyms, which are frequently used by german startups for CEO/Founder. Thus its a mix of german and english words.
+The lists contain synonyms, which are frequently used by german startups for CEO/Founder. Thus its a mix of german and english terms.
 
 Lists used:
 
 #The imprint is usually separted in various parts. These words indicate that we reached a section which wont contain our desired names
 ListOfWordsToClean = ["Kontakt", "Umsatzsteuer", "Hausanschrift", "E-Mail"]
 
-#List of possible subsites with the name of the CEO/Founder
+#List of possible substitutes with the name of the CEO/Founder
  ListOfImprintWords = ["impressum", "imprint", "policies/legal-notice","impressum.html", "legal-disclaimer", "legals"]
 
 #List of possible CEO/Founder synonyms
